@@ -1,0 +1,76 @@
+{
+"name" : "joint and multitask training defaults",
+
+# Key arguments
+"shared_parameters" : True,
+"training_type" : "multitask",
+"evaluation_type" : "joint",
+
+# Optimization arguments
+"learning_rate" : 0.0001, # Learning rate
+"weight_decay" : 0.1, # Weight decay
+"num_training_steps" : 17500,
+"num_warmup_steps" : 0,
+"ips_clip" : 5,
+"gradient_accumulation_steps" : 32,
+"gradient_clip_norm" : 1,
+
+# Joint inference specific
+"listener_lambda" : 0.5,
+"speaker_lambda" : 0.5,
+
+# Model hyperparameters
+"from_scratch" : False,
+"generation_prompt" : "information_after",
+"comprehension_prompt" : "verbose_instruction",
+"lora_r" : 16,
+
+# Training arguments
+"n_epochs" : 15,
+"batch_size" : 2,
+"test_batch_size" : 4,
+"num_workers" : 4,
+"patience_cutoff" : 5,
+"seed" : -1,
+"no_shuffling" : False,
+"anno_len_threshold" : 40,
+"lora_subset" : "vision_resampler",
+
+# Data terms
+"noise_filter" : "",
+"only_seed" : False,
+"replacement_family_name" : "",
+
+"use_separate_dataloaders" : False,
+"listener_filter" : "",
+"speaker_filter" : "",
+
+# Generation inference arguments
+"max_steps" : 30,
+"sampling_type" : "nucleus",
+"temperature" : 0.7,
+"top_k" : 50,
+"top_p" : 1,
+"repetition_penalty" : 1,
+"num_samples" : 10,
+
+# Experiment arguments
+"load_from_checkpoint" : False,
+"base_folder" : "/home/mog29/cogen/data_and_checkpoints/experiments/joint_training",
+"model_family_name" : "full",
+"deployment_round" : 1,
+"name_suffix" : "",
+"save_each_epoch" : False,
+"past_name_suffix" : "",
+"past_round" : -1,
+
+"use_wandb" : False,
+"wandb_experiment_name" : "experiment_name",
+"wandb_project_name" : "cogen_continual_learning",
+
+# Data arguments
+"data_dir" : "/home/mog29/cogen/data_and_checkpoints/kilogram/dataset",
+"img_dir" : "/home/mog29/cogen/data_and_checkpoints/kilogram/dataset/square-black-imgs",
+"split_dir" : "/home/mog29/cogen/data_and_checkpoints/continual_learning",
+"context_size" : 10, 
+}

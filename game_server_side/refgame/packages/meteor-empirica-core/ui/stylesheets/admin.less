@@ -1,0 +1,136 @@
+body.bp3-dark {
+  background-color: #30404d;
+}
+
+.navbar {
+  display: flex;
+  background-color: #30404d;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+
+  * {
+    color: white;
+  }
+}
+
+.admin {
+  height: 100%;
+  width: 100%;
+
+  .header {
+    [type="file"] {
+      visibility: hidden;
+      width: 0;
+      max-width: 0;
+    }
+  }
+
+  .archived-button {
+    float: right;
+  }
+
+  .admin-heading {
+    margin-bottom: 1.5rem;
+
+    .bp3-icon {
+      margin-right: 0.5rem;
+    }
+
+    button {
+      margin-left: 1rem;
+    }
+  }
+
+  .bp3-callout {
+    display: inline-block;
+    width: auto;
+  }
+
+  .double-stripped > tbody {
+    > tr:nth-child(4n + 1) > td,
+    > tr:nth-child(4n + 2) > td {
+      background-color: rgba(191, 204, 214, 0.15);
+    }
+
+    .batch-games-table {
+      width: 100%;
+
+      tbody tr:first-child th {
+        box-shadow: none !important;
+      }
+
+      .player-group {
+        margin-right: 8px;
+      }
+    }
+
+    // Arrow in Batches
+    .detailsButton {
+      width: 12px;
+      transform: rotate(-90deg);
+
+      &.detailsVisible {
+        transform: rotate(0);
+      }
+    }
+  }
+
+  main {
+    overflow: auto;
+    padding: 1.5rem 1.5rem 7rem;
+  }
+
+  .games,
+  .players {
+    height: calc(~"100vh - 14rem");
+  }
+
+  .inner-table tbody tr td {
+    box-shadow: none !important;
+  }
+
+  .button-group {
+    display: flex;
+  }
+
+  .add-treatment-popover {
+    padding: 1rem;
+  }
+
+  .factors {
+    .factors-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+      grid-gap: 3rem;
+    }
+  }
+
+  .factor {
+    h4 {
+      margin-top: 0;
+    }
+
+    .factor-actions {
+      float: right;
+    }
+  }
+
+  .required {
+    label:not(.bp3-radio)::after {
+      content: "*";
+      position: relative;
+      left: 0.2em;
+      color: red;
+    }
+  }
+
+  .bp3-html-select,
+  .bp3-html-select select {
+    max-width: 100%;
+  }
+
+  table tr td.numeric {
+    text-align: right;
+  }
+}

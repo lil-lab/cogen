@@ -1,0 +1,62 @@
+# pack-refs with: peeled fully-peeled sorted 
+4c43c95b36079a2899ce6e3b2f9566e0e46a4252 refs/remotes/origin/batch-ui-improvements
+5d31bcae3f7cea5c124f2432f8643815bc8b1158 refs/remotes/origin/custom-assignment
+a107caec8ca95bd1625154a723fac0b3724802b3 refs/remotes/origin/dependabot/npm_and_yarn/decode-uri-component-0.2.2
+2f67f30fbeb89506a334b62c7fe7e3a9295c57e9 refs/remotes/origin/dependabot/npm_and_yarn/minimist-1.2.8
+8290469d9eba3959621a7a1783a59ed297c7ca0c refs/remotes/origin/dependabot/npm_and_yarn/path-parse-1.0.7
+c9d60c473d7c22c676fb60e225de39f17caf3179 refs/remotes/origin/dependabot/npm_and_yarn/shelljs-0.8.5
+df43ddef09bcab1905d39d2520de601306d9a89e refs/remotes/origin/dependabot/npm_and_yarn/simple-git-and-lint-staged--removed
+9d31fd3f5f9ecc4c6358c319e0c84424a1cdfc44 refs/remotes/origin/dependabot/npm_and_yarn/trim-off-newlines-1.0.3
+d334c6fda5abec4273338faeebd1e46d18836128 refs/remotes/origin/exitPlayer
+8e2c0c72915af68b040347c7541e3badd88b4613 refs/remotes/origin/experimental/beforeGameInit
+58252d951868304047652fb56dd6f000514bbfde refs/remotes/origin/features/custom-assignment-#28
+04beb50469d29bdce3b66cebf9f1bb333a6baa17 refs/remotes/origin/features/show-batchID-on-admin-batches-#186
+42892f73fbde5be699912219589604330350f198 refs/remotes/origin/master
+ce0407bff965eace39a74db814479b2275ff0f69 refs/tags/v0.0.10
+^8b3dacf26bfdafa4dd28b17dfe0a42f43fb87d20
+597f96bc0308f2e89ad0d1525c8a458bfc399c60 refs/tags/v0.0.2
+^49f7aff52b76fee39fc0aabf0ceee1e385a6a9b4
+96ca9653b7a46c188a635fcd0053662efcf4a6b0 refs/tags/v0.0.3
+d4e6aa7688b2d4f52b7ea65eb7a8430951b6a83f refs/tags/v0.0.4
+^95f5175666e611265cfd6fc621ba5c82a589886c
+963d45a05f4703d60b719e5c0fd08cb1d802d798 refs/tags/v0.0.5
+1573ae269532e838b55ab94edbe016f47ae58e63 refs/tags/v0.0.6
+^34b13e18f477d44eb195e5063a939b106b6e882a
+1e2fbc429abc0efd0754765bb3d53f85b0c522ff refs/tags/v0.0.7
+^dfab09fe3dc2bbae86b60dda69bec7de28e35b14
+f019c4354625c80e7e4d91899517faaf38764c91 refs/tags/v0.0.8
+^f64d045f26c75774c25025730f5d47c061e7c72f
+ed300e3b9c5674f99a5a4a2c858070cafc985ef9 refs/tags/v0.0.9
+^a4a74c35cf996d14b737d0a36ec3c655738cfe02
+e784a7d6bfed59bafcfd088fbe007f6237839971 refs/tags/v0.1.0
+^ceea52f50b2576439b20db4d3a7018716f5eeaef
+3b1d3bf1506c8bd6dc08064af49078ec4a0c7b3f refs/tags/v0.10.0
+^6b822fdaa8666c0593579a309fbc257585321925
+ee3815531637d11db9b35e77800103d9029973e6 refs/tags/v0.11.0
+^d70b984b4ad174f40ce3b83a35e0ec4a5cee2f39
+6bf3d4e9b666cfb210dfec56d0c52097e5bc6b22 refs/tags/v0.12.0
+^cdb8849be1258a28dfca4a8fa3fe9f612264b5c2
+0a9c0ae33d46bbac21374fef46a180d6dc9f5aa6 refs/tags/v0.13.0
+f55997a22886d414afd2b8321a18be3708c6f960 refs/tags/v0.14.0
+7e1726f7ad45b540c1ec80c36b6c521eea068c3b refs/tags/v0.15.0
+6f7cee54b58a74012f73c3ec3a2514173e1922d5 refs/tags/v0.2.0
+^b222ac0703201c01f4663edd4feda535542b9944
+8d494cea568851561a26c70c5ad3810ecb458316 refs/tags/v0.3.0
+^1570aa9a23c072d1f676977ec835c0d7111e872f
+53c087b3d036d81aaf6d1cd6969e6364bd175c8b refs/tags/v0.4.0
+^edeb3252663882c1c5b9233a65609645f339a256
+2c9fd4a4c55009fd7659c332e7ecabd775cc1524 refs/tags/v0.5.0
+^56bd37530338d710faf0f72c7d84935c669b1f45
+8c17bacd40a982518773c6c69f6fe027a7b50af3 refs/tags/v0.6.0
+^201911435db0ff1eff2608c13ef51fd099f0fb4c
+e1f6c6f27cb7e2642760448672fe0d26b91f15a9 refs/tags/v0.7.0
+^ca43726e14c8b649d9638f3aac07605ba3b99247
+a3d1e81d694dadc2a463515e7332f85dc636dbc1 refs/tags/v0.8.0
+^61717005422388c800616b17a059a3d728f3c686
+532220024849b827a3a175827a69ba46f7130900 refs/tags/v0.9.0
+^76865a7714008c015f1f8aa30286ba6cf17bb177
+7e1726f7ad45b540c1ec80c36b6c521eea068c3b refs/tags/v1.0.0
+4d3020dc56eb29f8d9963810fb0bc72fc121cc37 refs/tags/v1.1.0
+572530e4d2c4df24673cf6ccd08395dd8696dd0b refs/tags/v1.2.0
+82b4a2b19147aa005670f399e1f83fa5d2e3fe80 refs/tags/v1.4.1
+^4dfbf705832cb0e48370ccfdc61c864ae9292ab9

@@ -1,0 +1,3 @@
+configs:
+- r1_full.yaml
+- r1_no_ds.yaml

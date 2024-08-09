@@ -1,0 +1,3 @@
+{
+"configs" : ["oracle_bots.yaml", "dummy_bots.yaml"]
+}

@@ -1,0 +1,18 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+	"MONGO_URL": "fill_in"
+    }
+  },
+  "admins": [
+    {
+      "username": "fill_in",
+      "password": "fill_in"
+    }
+  ],
+  "public": { 
+    "playerIdParam": "assignmentId",
+    "playerIdParamExclusive": true 
+  },
+    "preventMatchingIP" : false
+}

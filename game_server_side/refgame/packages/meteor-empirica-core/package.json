@@ -1,0 +1,55 @@
+{
+  "name": "meteor-empirica-core",
+  "version": "1.17.0",
+  "description": "Core Meteor package for the experiment Empirica platform.",
+  "main": "server.js",
+  "repository": "git@github.com:empiricaly/meteor-empirica-core.git",
+  "author": "Nicolas Paton <nicolas.paton@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "npx git-cz",
+    "release-patch": "standard-version -s -a -r patch",
+    "release-minor": "standard-version -s -a -r minor",
+    "release": "standard-version -s -a -r",
+    "push-git": "git push --follow-tags origin master",
+    "publish-meteor": "meteor --release 1.10.2 publish"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "./scripts/syncver.sh",
+      "prechangelog": "rm CHANGELOG.md"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^7.1.2",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2",
+    "standard-version": "^9.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "DISABLED-commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,24 @@
+base_folder: compgen_saved_files/experiments/joint_training
+base_speaker_len: 787
+context_size: 10
+data_dir: compgen_saved_files/kilogram/dataset
+img_dir: compgen_saved_files/kilogram/dataset/square-black-imgs
+index_to_token_path: compgen_saved_files/index_to_token.pkl
+j_experiment_name: run
+j_experiments_folder: r3_baseline
+joint_inference: false
+listener_lambda: 0.5
+manager_type: model
+max_steps: 30
+model_type: joint_training
+name: config for the baseline separately trained bots
+num_duplicates: 1
+num_samples: 10
+repetition_penalty: 1
+sampling_type: nucleus
+speaker_lambda: 0.5
+split_dir: compgen_saved_files/split_info/current_splits
+temperature: 0.7
+top_k: 50
+top_p: 1
+treatment_name: baseline

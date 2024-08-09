@@ -1,0 +1,485 @@
+<QuestionForm xmlns='http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd'>
+  <Overview>
+    <Title> REFERENCE GAME TASK QUALIFIER </Title>
+    <FormattedContent><![CDATA[
+    This is the qualifier for our reference game task. It requires reading an overview of the game and completing a short quiz. You have
+    1 hour to complete the qualifier but it usually takes 5-6 minutes.
+    <br /><br />
+
+    <strong> For bug reports, early announcements about future HITs, and feedback join our DISCORD server:
+    <a href="https://discord.gg/VPHk55k3nZ" target="_blank">
+    https://discord.gg/VPHk55k3nZ
+    </a> You can also contact us at
+    <a href="mailto: lillabcornell@gmail.com">
+    lillabcornell@gmail.com.
+    </a> </strong> <br /><br />
+
+    <b>PAYMENT</b><br />
+    In our HITs, you will play 13 rounds of reference games and receive a base pay for completing the HIT. On top of the base pay,
+    you will receive pay for each round you complete. If a round is completed with a correct guess, you will also receive an additional
+    correctness bonus for that round. For more detailed payment information, please refer to the Incentives section of our consent form
+    linked below. We expect that one HIT will take 8-10 minutes on average. <br /><br />
+
+    <b>CONSENT</b><br />
+    This qualifier is part of a research study. Please read our <a href="https://bit.ly/tangram-consent-form">consent form</a>.
+    By completing the quiz, you acknowledge that you understand our consent form, and agree to take part in this research. <br /><br />
+
+    **************************
+    <br />
+    <b>GAME OVERVIEW</b><br />
+    <strong>
+    Please watch the tutorial below before answering the questions.
+    </strong>
+    ]]>
+    </FormattedContent>
+
+    <EmbeddedBinary>
+      <EmbeddedMimeType>
+	<Type>video</Type>
+	<SubType>mp4</SubType>
+      </EmbeddedMimeType>
+      <DataURL>https://www.youtube.com/embed/MlaocjkkwPw</DataURL>
+      <AltText>A brief video demonstration of the game.</AltText>
+      <Width>1007</Width>
+      <Height>548</Height>
+    </EmbeddedBinary>
+
+    <FormattedContent><![CDATA[
+    <strong>
+    You can additionally refer to <a href="https://lil-lab.github.io/tangrams-refgame-dev/" target="_blank">this document</a>
+    to review the tutorial content.
+    </strong>
+    ]]>
+    </FormattedContent>
+
+  </Overview>
+
+  <Question>
+    <QuestionIdentifier>Q1</QuestionIdentifier>
+    <DisplayName>Q1</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> As a speaker, what is your goal? </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q11</SelectionIdentifier>
+            <Text>Describe the target picture so the listener can easily pick it.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q12</SelectionIdentifier>
+            <Text>Describe all pictures on the screen.</Text>
+          </Selection>
+	  <Selection>
+            <SelectionIdentifier>q13</SelectionIdentifier>
+	    <Text>Get to know the listener and discuss what you see.</Text>
+	  </Selection>
+	  <Selection>
+            <SelectionIdentifier>q14</SelectionIdentifier>
+	    <Text>Describe the location of the target pictures on my screen.</Text>
+	  </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q2</QuestionIdentifier>
+    <DisplayName>Q2</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> As a listener, what is your goal? </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q21</SelectionIdentifier>
+	    <Text>Describe the target picture.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q22</SelectionIdentifier>
+	    <Text>Chat with the speaker about general topics.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q23</SelectionIdentifier>
+	    <Text>Randomly click on the picture I like the most.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q24</SelectionIdentifier>
+	    <Text>Choose the picture described by the speaker.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q3</QuestionIdentifier>
+    <DisplayName>Q3</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> How do you know what your role is? </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q31</SelectionIdentifier>
+	    <Text>If you become a speaker in the first round, you will be the speaker for the rest of the experiment.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q32</SelectionIdentifier>
+	    <Text>Each round might be different. The role is indicated on the screen.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q33</SelectionIdentifier>
+	    <Text>You decide at the beginning of the experiment what your role is.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q4</QuestionIdentifier>
+    <DisplayName>Q4</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> Consider the following description: "The letter J." Which picture is described? </Text>
+      <Binary>
+	<MimeType>
+	  <Type>image</Type>
+	  <SubType>jpg</SubType>
+	</MimeType>
+	<DataURL>https://i.ibb.co/x11BVP3/Listener-Context.jpg</DataURL>
+	<AltText>Set of 6 tangrams marked with letters.</AltText>
+      </Binary>    
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q41</SelectionIdentifier>
+	    <Text>Tangram A.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q42</SelectionIdentifier>
+	    <Text>Tangram B.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q43</SelectionIdentifier>
+	    <Text>Tangram C.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q44</SelectionIdentifier>
+	    <Text>Tangram D.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q45</SelectionIdentifier>
+	    <Text>Tangram E.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q46</SelectionIdentifier>
+	    <Text>Tangram F.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q5</QuestionIdentifier>
+    <DisplayName>Q5</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> Consider the following description: "A person kicking the air." Which picture is described? </Text>
+      <Binary>
+	<MimeType>
+	  <Type>image</Type>
+	  <SubType>jpg</SubType>
+	</MimeType>
+	<DataURL>https://i.ibb.co/x11BVP3/Listener-Context.jpg</DataURL>
+	<AltText>Set of 6 tangrams marked with letters.</AltText>
+      </Binary>    
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q51</SelectionIdentifier>
+	    <Text>Tangram A.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q52</SelectionIdentifier>
+	    <Text>Tangram B.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q53</SelectionIdentifier>
+	    <Text>Tangram C.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q54</SelectionIdentifier>
+	    <Text>Tangram D.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q55</SelectionIdentifier>
+	    <Text>Tangram E.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q56</SelectionIdentifier>
+	    <Text>Tangram F.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q6</QuestionIdentifier>
+    <DisplayName>Q6</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> Consider the following description: "A cat running left." Which picture is described? </Text>
+      <Binary>
+	<MimeType>
+	  <Type>image</Type>
+	  <SubType>jpg</SubType>
+	</MimeType>
+	<DataURL>https://i.ibb.co/x11BVP3/Listener-Context.jpg</DataURL>
+	<AltText>Set of 6 tangrams marked with letters.</AltText>
+      </Binary>    
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q61</SelectionIdentifier>
+	    <Text>Tangram A.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q62</SelectionIdentifier>
+	    <Text>Tangram B.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q63</SelectionIdentifier>
+	    <Text>Tangram C.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q64</SelectionIdentifier>
+	    <Text>Tangram D.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q65</SelectionIdentifier>
+	    <Text>Tangram E.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q66</SelectionIdentifier>
+	    <Text>Tangram F.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q7</QuestionIdentifier>
+    <DisplayName>Q7</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> Consider the following description: "A steep hill." Which picture is described? </Text>
+      <Binary>
+	<MimeType>
+	  <Type>image</Type>
+	  <SubType>jpg</SubType>
+	</MimeType>
+	<DataURL>https://i.ibb.co/x11BVP3/Listener-Context.jpg</DataURL>
+	<AltText>Set of 6 tangrams marked with letters.</AltText>
+      </Binary>    
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q71</SelectionIdentifier>
+	    <Text>Tangram A.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q72</SelectionIdentifier>
+	    <Text>Tangram B.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q73</SelectionIdentifier>
+	    <Text>Tangram C.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q74</SelectionIdentifier>
+	    <Text>Tangram D.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q75</SelectionIdentifier>
+	    <Text>Tangram E.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q76</SelectionIdentifier>
+	    <Text>Tangram F.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q8</QuestionIdentifier>
+    <DisplayName>Q8</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> Consider the following image of a target in context. Which option best describes it? </Text>
+      <Binary>
+	<MimeType>
+	  <Type>image</Type>
+	  <SubType>jpg</SubType>
+	</MimeType>
+	<DataURL>https://i.ibb.co/PD4yDLr/Speaker-Context-2.jpg</DataURL>
+	<AltText>Set of 4 tangrams with target at top right.</AltText>
+      </Binary>    
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q81</SelectionIdentifier>
+	    <Text>A mountain range.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q82</SelectionIdentifier>
+	    <Text>The image on the top right</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q83</SelectionIdentifier>
+	    <Text>Four triangles next to each other</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q9</QuestionIdentifier>
+    <DisplayName>Q9</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> Consider the following image of a target in context. Which option best describes it? </Text>
+      <Binary>
+	<MimeType>
+	  <Type>image</Type>
+	  <SubType>jpg</SubType>
+	</MimeType>
+	<DataURL>https://i.ibb.co/9rzrbK5/Speaker-Context-1.jpg</DataURL>
+	<AltText>Set of 4 tangrams with target at top left.</AltText>
+      </Binary>    
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q91</SelectionIdentifier>
+	    <Text>A person.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q92</SelectionIdentifier>
+	    <Text>A person in prayer</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q93</SelectionIdentifier>
+	    <Text>A person pointing to the right</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q10</QuestionIdentifier>
+    <DisplayName>Q10</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> Consider the following image of a target in context. Which option best describes it? </Text>
+      <Binary>
+	<MimeType>
+	  <Type>image</Type>
+	  <SubType>jpg</SubType>
+	</MimeType>
+	<DataURL>https://i.ibb.co/dj153BB/Speaker-Context-3.jpg</DataURL>
+	<AltText>Set of 4 tangrams with target at bottom left.</AltText>
+      </Binary>    
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q10_1</SelectionIdentifier>
+	    <Text>The image on the bottom left.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q10_2</SelectionIdentifier>
+	    <Text>An alpaca</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q10_3</SelectionIdentifier>
+	    <Text>A mountain range</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Q11</QuestionIdentifier>
+    <DisplayName>Q11</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text> Consider the following image of a target in context. Which option best describes it? </Text>
+      <Binary>
+	<MimeType>
+	  <Type>image</Type>
+	  <SubType>jpg</SubType>
+	</MimeType>
+	<DataURL>https://i.ibb.co/QQyrxhJ/Speaker-Context-4.jpg</DataURL>
+	<AltText>Set of 4 tangrams with target at bottom right.</AltText>
+      </Binary>    
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>q11_1</SelectionIdentifier>
+	    <Text>The human image we haven't chosen yet.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q11_2</SelectionIdentifier>
+	    <Text>A person in prayer</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>q11_3</SelectionIdentifier>
+	    <Text>A person pointing to the right</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+</QuestionForm>

@@ -1,0 +1,41 @@
+{
+# Treatment level arguments
+"name" : "config for the baseline separately trained bots",
+"treatment_name" : "no_ji", # The treatment name is used for the botTreatment factor
+"manager_type" : "model",
+
+# Ray arguments
+"num_duplicates" : 1,
+
+# Data arguments
+"data_dir" : "compgen_saved_files/kilogram/dataset",
+"img_dir" : "compgen_saved_files/kilogram/dataset/square-black-imgs",
+"split_dir" : "compgen_saved_files/split_info/current_splits",
+"context_size" : 10, 
+
+# Model loading arguments
+"model_type" : "joint_training", # baseline, parameter_sharing or joint_training
+"listener_lambda" : 0.5,
+"speaker_lambda" : 0,
+
+# Parameter sharing and joint training
+"base_folder" : "compgen_saved_files/experiments/joint_training",
+"j_experiments_folder" : "r0_no_ji",
+"j_experiment_name" : "run",
+
+# Model inference details
+"joint_inference" : False,
+
+# Generation model inference arguments
+"sampling_type" : "nucleus",
+"max_steps" : 30,
+"temperature" : 0.7,
+"top_k" : 50,
+"top_p" : 1,
+"repetition_penalty" : 1,
+"num_samples" : 10,
+
+# Miscellany
+"index_to_token_path" : "compgen_saved_files/index_to_token.pkl",
+"base_speaker_len" : 787,
+}

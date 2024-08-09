@@ -1,0 +1,12 @@
+*~
+*__pycache__
+*.ipynb_checkpoints
+*.out
+*.err
+*.pyc
+*.DS_STORE
+
+data_and_checkpoints/experiments/
+data_and_checkpoints/kilogram/
+data_and_checkpoints/continual_learning/
+data_and_checkpoints/interaction/
