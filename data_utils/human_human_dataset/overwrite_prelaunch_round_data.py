@@ -1,3 +1,8 @@
+# File: overwrite_prelaunch_round_data.py
+# ---------------------------------------
+# Overwrites the jsons within game_server_side/refgame/public with the precomputed model utterances
+# for increased efficiency while serving.
+
 import random
 import numpy as np
 import os

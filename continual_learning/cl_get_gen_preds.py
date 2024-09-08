@@ -1,3 +1,8 @@
+# File: cl_get_gen_preds.py
+# -------------------------
+# Helper script to generate model utterances for debugging.
+
+
 import argparse
 import torch
 import torch.nn as nn

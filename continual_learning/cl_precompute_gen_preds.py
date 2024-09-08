@@ -1,3 +1,7 @@
+# File: cl_precompute_gen_preds.py
+# --------------------------------
+# Script for precomputing the generation model's utterances before a launch.
+
 import argparse
 import torch
 import torch.nn as nn

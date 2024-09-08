@@ -1,3 +1,8 @@
+# File: create_cl_round_datasets.py
+# ---------------------------------
+# Main preprocessing script for converting the initial data processed from MongoDB into
+# json files for each model. Should be called after deployment.
+
 import random
 import numpy as np
 import os

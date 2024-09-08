@@ -18,3 +18,5 @@ tornado
 pynvml==11.5.0
 pymongo==4.7.1
 tqdm==4.66.2
+streamlit==1.38.0
+mauve-text

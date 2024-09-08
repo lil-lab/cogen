@@ -1,3 +1,7 @@
+# File: create_prelaunch_round_data.py
+# ------------------------------------
+# Creates json scripts to help precompute model utterances before a deployment.
+
 import random
 import numpy as np
 import os

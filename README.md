@@ -1,7 +1,7 @@
 CoGen: Learning from Feedback with Coupled Comprehension and Generation
 =======================================================================
 
-This is the code repository for the paper "CoGen: Learning from Feedback with Coupled Comprehension and Generation," [Mustafa Ömer Gül](https://momergul.github.io/) and [Yoav Artzi](https://yoavartzi.com/) (arXiv preprint).
+This is the code repository for the paper "[CoGen: Learning from Feedback with Coupled Comprehension and Generation](https://www.arxiv.org/pdf/2408.15992)," [Mustafa Ömer Gül](https://momergul.github.io/) and [Yoav Artzi](https://yoavartzi.com/) (arXiv preprint).
 
 ### About
 

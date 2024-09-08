@@ -1,3 +1,7 @@
+# File: cl_precompute_analysis_preds.py
+# -------------------------------------
+# Script to precompute model utterances for language analyses.
+
 import argparse
 import torch
 import torch.nn as nn

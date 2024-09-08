@@ -1,8 +1,6 @@
-# File: comp_data_utils.py
-# ------------------------
-# Contains the dataset for the comprehension task
-# alongside utilities for loading dataloaders, collation
-# functions, etc.
+# File: dataset.py
+# ----------------
+# Contains key dataset and data processing utilities for training/evaluation
 
 import copy
 import os

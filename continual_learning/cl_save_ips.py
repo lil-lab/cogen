@@ -1,3 +1,9 @@
+# File: cl_save_ips.py
+# --------------------
+# Script for precomputing IPS terms and recovering model predictions for rounds where the listener
+# idled. Should be run after data_utils/human_human_dataset/create_cl_round_datasets.py is run after
+# a deployment
+
 import argparse
 import torch
 import torch.nn as nn
@@ -97,6 +103,7 @@ def get_model_prediction(cfg, model, processor, index_to_token, round_dict, game
     ips_terms = {}
     key_name = "selection" if "listener" in game_id else "gt_target"
 
+    # Compute target probability in deployment
     image_paths = round_dict["listener_context"]
     description = round_dict["chat"].lower().strip()
     if "no_ji" in game_id or "baseline" in game_id:
@@ -119,6 +126,7 @@ def get_model_prediction(cfg, model, processor, index_to_token, round_dict, game
     target_idx = image_paths.index(round_dict[key_name])
     ips_terms["listener_logp"] = listener_log_probs[0, target_idx].item()
 
+    # Sample-rerank -> base distribution probability
     image_paths = round_dict['speaker_context']
     target_idx = image_paths.index(round_dict[key_name])
     input_tokens, attn_mask, images, image_attn_mask, target_tokens, \

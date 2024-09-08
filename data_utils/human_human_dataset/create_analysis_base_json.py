@@ -1,3 +1,7 @@
+# File: create_analysis_base_json.py
+# ----------------------------------
+# Script for creating the initial analysis json for human-human games
+
 import random
 import numpy as np
 import os

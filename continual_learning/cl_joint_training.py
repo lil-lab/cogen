@@ -1,5 +1,5 @@
-# File: joint_training
-# --------------------
+# File: cl_joint_training.py
+# --------------------------
 # Main script for continual learning training
 
 import argparse

@@ -1,6 +1,7 @@
-# File: joint_training
-# --------------------
-# Training script where the speaker and listener models are jointly trained
+# File: cl_human_model_evals.py
+# -----------------------------
+# Helper script to evaluate (comprehension) model performance on arbitrary human-model interaction
+# jsons after deployment.
 
 import argparse
 import torch

@@ -1,3 +1,9 @@
+# File: create_analysis_base_json.py
+# ----------------------------------
+# Script for creating the analysis json for particular models. Should be called
+# after continual_learning/cl_precompute_analysis_preds.py
+
+
 import random
 import numpy as np
 import os
